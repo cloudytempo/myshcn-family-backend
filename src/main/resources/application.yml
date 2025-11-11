@@ -1,0 +1,14 @@
+# application.yml intentionally disabled
+# This project uses application.properties only. Keep this file empty to avoid duplicate
+# configuration with application.properties. If you need YAML, convert the properties into
+# YAML and remove or rename application.properties.
+#
+# To use PostgreSQL (Supabase) via environment variables, set either JDBC_DATABASE_URL or
+# SUPABASE_DB_HOST/SUPABASE_DB_NAME/SUPABASE_DB_USER/SUPABASE_DB_PASSWORD in your environment,
+# and ensure the JDBC URL includes ?sslmode=require for Supabase.
+# Example (cmd.exe):
+#   set JDBC_DATABASE_URL=jdbc:postgresql://db.example.supabase.co:5432/postgres?sslmode=require
+#   set SUPABASE_DB_USER=postgres
+#   set SUPABASE_DB_PASSWORD=your_password
+
+# Intentionally left blank to prefer application.properties
